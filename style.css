@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+   box-sizing: border-box;
+}
+body{
+   font-family: 'IBM Plex Sans', sans-serif;
+   margin: 0px;
+   background-color: #e9ecef;
+}
+
+/* Navigation Bar CSS */
+.navbar{
+   color: #14213d;
+   border-bottom: 3px solid #14213d;
+   padding: 1rem;
+   margin-bottom: 2rem;
+}
+.navbar .nav-head{
+   font-size: 30px;
+   font-weight: bolder;
+   text-align:center;
+   padding-left: 2rem;
+}
+.nav-head a{
+   text-decoration: none;
+   color: green;
+   float: right;
+}
+.nav-head i{
+   font-size: 50px;
+}
+
+/* Header */
+.header{
+   text-align: center;
+   color: green;
+   font-weight: 600;
+   display: block;
+   margin: auto;
+   width: 90%;
+   max-width: 600px;
+   padding-bottom: 2rem;
+   font-size: 20px;
+}
+.img-minion{
+   width: 90%;
+   max-width: 200px;
+   display: block;
+   margin: auto;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+
+/* TextArea */
+#textArea{
+   background-color: #e9ecef;
+   border: #14213d 2px solid;
+   display: block;
+   width: 80%;
+   max-width: 600px;
+   height: 20vh;
+   margin: auto;
+   border-radius: 20px;
+   text-align: center;
+   padding: 1rem;
+   font-size: 15px;
+}
+
+/* Button */
+.div-btn{
+   text-align: center;
+}
+#btn-click{
+   background-color: #14213d;
+   color: #e9ecef;
+   font-size: larger;
+   font-weight: 900;
+   width: 20px;
+   padding: 0.5rem 2rem;
+   border-radius: 20px;
+   margin-bottom: 1rem;
+   width: auto; 
+}
+
+/* Output */
+.head-opt{
+   color: #14213d;
+   font-weight: 600;
+   display: block;
+   margin: auto;
+   max-width: fit-content;
+   padding-bottom: 1rem;
+}
+#div-opt{
+   border: #14213d 3px solid;
+   border-radius: 20px;
+   display: block;
+   width: 80%;
+   max-width: 600px;
+   height: 20vh;
+   margin: auto;
+   text-align: center;
+   padding: 1rem;
+   font-size: 15px;
+}
+
+/* Footer */
+.footer{
+   margin-top: 3rem;
+   padding-top: 0rem;
+   border-top: 3px solid #14213d;
+}
+
+.footer div{
+   color: #14213d;
+   text-align: center;
+}
+
+.footer p{
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.footer a{
+   padding-inline: 2rem;
+   font-size: 35px;
+   color: #14213d;
+   text-decoration: none;
+}
+
+.footer .with-para{
+   padding-inline: 0rem;
+   font-size: 20px;
+   color: #14213d;
+   text-decoration: none;
+}
